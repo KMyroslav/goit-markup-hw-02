@@ -1,10 +1,15 @@
 :root {
   --primary-font: 'Roboto', sans-serif;
   --secondart-font: 'Raleway', sans-serif;
+
+  --primary-white-bg: #ffffff;
+  --secondary-grey-bg: #f5f4fa;
+  --accent-dark-blue-bg: #2f303a;
   --primary-grey-text: #757575;
   --secondary-black-text: #212121;
   --title-white: #ffffff;
   --accent: #2196f3;
+
   --modal-button-bg: #188ce8;
 }
 
@@ -78,6 +83,9 @@ body {
 /* #################### End Components #################### */
 
 /* #################### HEADER #################### */
+.header {
+  background-color: var(--primary-white-bg);
+}
 /* #################### Navigation ################### */
 .nav-link {
   font-weight: 500;
@@ -104,6 +112,10 @@ body {
 
 /* #################### MAIN #################### */
 /* #################### Hero #################### */
+.hero {
+  background-color: var(--accent-dark-blue-bg);
+}
+
 .title-hero {
   font-weight: 900;
   font-size: 44px;
@@ -147,6 +159,10 @@ body {
 /* #################### End Specialty #################### */
 
 /* #################### Team #################### */
+.team {
+  background-color: var(--secondary-grey-bg);
+}
+
 .team-member {
   font-weight: 500;
   font-size: 16px;
@@ -162,6 +178,10 @@ body {
 /* #################### END MAIN #################### */
 
 /* #################### FOOTER #################### */
+.footer {
+  background-color: var(--accent-dark-blue-bg);
+}
+
 .geolocation {
   line-height: 1.71;
   color: var(--title-white);
