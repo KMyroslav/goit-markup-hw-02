@@ -85,6 +85,11 @@ body {
   letter-spacing: 0.02em;
   color: var(--secondary-black-text);
 }
+
+.active {
+  color: var(--accent);
+}
+
 /* #################### End Navigation #################### */
 
 /* #################### Contacts #################### */
